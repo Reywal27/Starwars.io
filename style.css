@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.landing-container {
+    text-align: center;
+}
+
+.landing-content {
+    color: #00ffee;
+    animation: fadeIn 2s ease-in-out;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
